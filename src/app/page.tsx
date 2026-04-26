@@ -39,7 +39,7 @@ export default function LandingPage() {
         {
           name: "Contact",          id: "contact"},
       ]}
-      brandName="MindfulBrains"
+      brandName="Mind Haven Nutrition"
     />
   </div>
 
