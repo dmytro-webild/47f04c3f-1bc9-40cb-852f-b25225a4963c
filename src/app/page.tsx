@@ -119,9 +119,9 @@ export default function LandingPage() {
         {
           id: "p2",          name: "Java Brain",          price: "",          variant: "Top Seller",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777207759110-ng3eb0r8.png"},
         {
-          id: "p3",          name: "ZenCortex",          price: "$29.99",          variant: "New Product",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/high-quality-wellness-product-elegant-mi-1777201361689-00c4a0c5.png"},
+          id: "p3",          name: "ZenCortex",          price: "$29.99",          variant: "New Product",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777207935522-5rsajsen.png"},
         {
-          id: "p4",          name: "Brain Health Nutrients",          price: "$45.99",          variant: "60 Tablets",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/wellness-product-set-elegantly-arranged--1777201370644-c1e12d0a.png"},
+          id: "p4",          name: "Mind Armor",          price: "$45.99",          variant: "60 Tablets",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777207953113-bixsk843.png"},
         {
           id: "p5",          name: "Mindful Matcha",          price: "$19.99",          variant: "Standard Pack",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/supplement-bottle-focusing-on-focus-clea-1777201378347-11370fc7.png"},
         {
