@@ -233,7 +233,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterBaseCard
-      logoText="MindfulBrains"
+      logoText="Mind Haven Nutrition"
       columns={[
         {
           title: "Company",          items: [
