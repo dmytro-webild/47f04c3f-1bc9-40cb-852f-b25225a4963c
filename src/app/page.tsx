@@ -115,7 +115,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "p1",          name: "Clarity Capsules",          price: "$34.99",          variant: "30 Capsules",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/elegant-bottle-of-mindfulness-supplement-1777201343578-3cbea42f.png"},
+          id: "p1",          name: "The Brain Song",          price: "",          variant: "Top Seller",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777205917060-k0ez23w3.png"},
         {
           id: "p2",          name: "Zen Herb Blend",          price: "$24.99",          variant: "Loose Leaf",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/another-variant-of-a-wellness-product-or-1777201352176-8c0caff2.png"},
         {
