@@ -115,11 +115,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "p1",          name: "Memory Fuel",          price: "",          variant: "Top Seller",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777205917060-k0ez23w3.png"},
+          id: "p1",          name: "Memory Fuel",          price: "",          variant: "Top Seller",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777207508215-g4hmf8jn.png"},
         {
-          id: "p2",          name: "Java Brain",          price: "",          variant: "Top Seller",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/another-variant-of-a-wellness-product-or-1777201352176-8c0caff2.png"},
+          id: "p2",          name: "Java Brain",          price: "",          variant: "Top Seller",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777207759110-ng3eb0r8.png"},
         {
-          id: "p3",          name: "Focus Oil Drops",          price: "$29.99",          variant: "30ml Bottle",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/high-quality-wellness-product-elegant-mi-1777201361689-00c4a0c5.png"},
+          id: "p3",          name: "ZenCortex",          price: "$29.99",          variant: "30ml Bottle",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/high-quality-wellness-product-elegant-mi-1777201361689-00c4a0c5.png"},
         {
           id: "p4",          name: "Brain Health Nutrients",          price: "$45.99",          variant: "60 Tablets",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/wellness-product-set-elegantly-arranged--1777201370644-c1e12d0a.png"},
         {
