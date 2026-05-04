@@ -7,6 +7,7 @@ import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import BlogCardTwo from '@/components/sections/blog/BlogCardTwo';
 import { useState } from "react";
 import Input from '@/components/form/Input';
+import ButtonHoverMagnetic from '@/components/button/ButtonHoverMagnetic/ButtonHoverMagnetic';
 
 export default function BlogPage() {
   const [comment, setComment] = useState("");
@@ -58,16 +59,14 @@ export default function BlogPage() {
           />
           <div className="container mx-auto p-8 max-w-2xl">
             <h3 className="text-2xl font-bold mb-4">Leave a comment</h3>
-            <div className="flex gap-2">
+            <div className="flex gap-2 items-center">
               <div className="flex-1">
                 <Input value={comment} onChange={setComment} placeholder="Share your thoughts..." />
               </div>
-              <button 
-                  className="px-6 py-2 bg-primary text-white rounded whitespace-nowrap"
+              <ButtonHoverMagnetic 
+                  text="Post"
                   onClick={handleAddComment}
-              >
-                  Post
-              </button>
+              />
             </div>
 
             <div className="mt-8">
