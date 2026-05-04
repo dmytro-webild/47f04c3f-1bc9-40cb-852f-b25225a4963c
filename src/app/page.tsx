@@ -49,7 +49,7 @@ export default function LandingPage() {
         { name: "David W.", handle: "@davidw", testimonial: "Finally found products that actually support my mindfulness practice.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/portrait-of-a-content-person-enjoying-na-1777201420082-c3692714.png" },
         { name: "Elena R.", handle: "@elenar", testimonial: "Serenity in a bottle. This has become a staple of my daily morning routine.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/close-up-portrait-warm-lighting-content--1777201428774-ce99ea2e.png" },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/a-serene-high-quality-image-of-a-person--1777201297462-30664a9c.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/a-serene-high-quality-image-of-a-person--1777201297462-30664a9c.png?_wi=2"
       mediaAnimation="slide-up"
     />
   </div>
@@ -60,7 +60,7 @@ export default function LandingPage() {
         description="We are dedicated to providing evidence-based tools and supplements to help you achieve clarity in a fast-paced world."
         tag="Mindfulness"
         tagIcon={Target}
-        imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/a-serene-high-quality-image-of-a-person--1777201297462-30664a9c.png"
+        imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/a-serene-high-quality-image-of-a-person--1777201297462-30664a9c.png?_wi=3"
         buttons={[{ text: "Contact Us", href: "/contact" }]}
         bulletPoints={[
           { title: "Natural Ingredients", description: "High-quality, evidence-backed supplements for cognitive wellness." },
