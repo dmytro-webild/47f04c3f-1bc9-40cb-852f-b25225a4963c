@@ -25,7 +25,7 @@ export default function AboutPage() {
           <NavbarStyleCentered
             navItems={[
               { name: "About", id: "/about" },
-              { name: "Products", id: "/products" },
+              { name: "Supplements", id: "/supplements" },
               { name: "Blog", id: "/blog" },
               { name: "Contact", id: "/contact" },
             ]}
@@ -45,7 +45,7 @@ export default function AboutPage() {
             logoText="Mind Haven Nutrition"
             columns={[
               { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Blog", href: "/blog" }] },
-              { title: "Products", items: [{ label: "Supplements", href: "/products" }, { label: "Resources", href: "#" }] },
+              { title: "Products", items: [{ label: "Supplements", href: "/supplements" }, { label: "Resources", href: "#" }] },
               { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Use", href: "#" }] },
             ]}
           />
