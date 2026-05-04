@@ -10,6 +10,15 @@ import Input from '@/components/form/Input';
 
 export default function BlogPage() {
   const [comment, setComment] = useState("");
+  const [comments, setComments] = useState<string[]>([]);
+
+  const handleAddComment = () => {
+    if (comment.trim()) {
+      setComments([...comments, comment]);
+      setComment("");
+    }
+  };
+
   return (
     <ThemeProvider
         defaultButtonVariant="bounce-effect"
@@ -50,7 +59,27 @@ export default function BlogPage() {
           <div className="container mx-auto p-8 max-w-2xl">
             <h3 className="text-2xl font-bold mb-4">Leave a comment</h3>
             <Input value={comment} onChange={setComment} placeholder="Share your thoughts..." />
-            <button className="mt-4 px-6 py-2 bg-primary text-white rounded">Post Review</button>
+            <button 
+                className="mt-4 px-6 py-2 bg-primary text-white rounded"
+                onClick={handleAddComment}
+            >
+                Post Review
+            </button>
+
+            <div className="mt-8">
+                <h4 className="text-xl font-semibold mb-4">Comments</h4>
+                {comments.length === 0 ? (
+                    <p className="text-gray-500 italic">No comments yet.</p>
+                ) : (
+                    <ul className="space-y-4">
+                        {comments.map((c, index) => (
+                            <li key={index} className="p-4 bg-gray-100 rounded border">
+                                {c}
+                            </li>
+                        ))}
+                    </ul>
+                )}
+            </div>
           </div>
         </div>
 
