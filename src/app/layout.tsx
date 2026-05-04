@@ -11,8 +11,8 @@ import { Open_Sans } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'MindfulBrains | Clarity & Cognitive Health',
-  description: 'Discover mindfulness and brain health solutions to help you find clarity and focus in your daily life.',
+  title: "MindHavenNutrition| Clarity & Cognitive Health",
+  description: "Discover mindfulness and brain health solutions to help you find clarity and focus in your daily life.",
   openGraph: {
     "title": "MindfulBrains - Clarity & Mindfulness",
     "description": "Achieve clarity and focus with our natural brain-health supplements and tools.",
