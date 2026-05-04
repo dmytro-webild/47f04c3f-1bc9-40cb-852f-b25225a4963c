@@ -6,7 +6,7 @@ import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarS
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import BlogCardTwo from '@/components/sections/blog/BlogCardTwo';
 import { useState } from "react";
-import Textarea from '@/components/form/Textarea';
+import Input from '@/components/form/Input';
 
 export default function BlogPage() {
   const [comment, setComment] = useState("");
@@ -49,7 +49,7 @@ export default function BlogPage() {
           />
           <div className="container mx-auto p-8 max-w-2xl">
             <h3 className="text-2xl font-bold mb-4">Leave a comment</h3>
-            <Textarea value={comment} onChange={setComment} placeholder="Share your thoughts..." />
+            <Input value={comment} onChange={setComment} placeholder="Share your thoughts..." />
             <button className="mt-4 px-6 py-2 bg-primary text-white rounded">Post Review</button>
           </div>
         </div>
