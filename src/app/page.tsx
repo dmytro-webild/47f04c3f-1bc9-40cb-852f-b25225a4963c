@@ -70,7 +70,7 @@ export default function LandingPage() {
       products={[
         { id: "p1", name: "Memory Fuel", price: "", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777876141937-p5z8u7iu.png" },
         { id: "p2", name: "Mind Armor", price: "", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777876213411-e3c9sv8d.png" },
-        { id: "p3", name: "ZenCortex", price: "", variant: "New Product", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777877690031-k15aww2x.png" },
+        { id: "p3", name: "ZenCortex", price: "", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777876736631-lwi3bg5h.png" },
       ]}
       title="Natural Clarity Solutions"
       description="Our curated selection of products to support cognitive health and mindfulness."
