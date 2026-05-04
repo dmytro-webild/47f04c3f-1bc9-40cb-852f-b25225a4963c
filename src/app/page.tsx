@@ -2,11 +2,17 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
+import ContactCTA from '@/components/sections/contact/ContactCTA';
+import FaqSplitText from '@/components/sections/faq/FaqSplitText';
+import FeatureCardTwentySix from '@/components/sections/feature/FeatureCardTwentySix';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroBillboardTestimonial from '@/components/sections/hero/HeroBillboardTestimonial';
+import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
+import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
 import TextAbout from '@/components/sections/about/TextAbout';
+import { Globe, Target, Users, Zap, Shield, Leaf, Sun } from "lucide-react";
 
 export default function LandingPage() {
   return (
