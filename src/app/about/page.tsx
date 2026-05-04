@@ -5,6 +5,7 @@ import ReactLenis from "lenis/react";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import TextAbout from '@/components/sections/about/TextAbout';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
+import { Target, Leaf } from 'lucide-react';
 
 export default function AboutPage() {
   return (
@@ -46,7 +47,7 @@ export default function AboutPage() {
             columns={[
               { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Blog", href: "/blog" }] },
               { title: "Products", items: [{ label: "Supplements", href: "/products" }, { label: "Resources", href: "#" }] },
-              { title: "Legal", items: [{ label: "Privacy Policy", href: "/privacy" }, { label: "Terms of Use", href: "#" }] },
+              { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Use", href: "#" }] },
             ]}
           />
         </div>
