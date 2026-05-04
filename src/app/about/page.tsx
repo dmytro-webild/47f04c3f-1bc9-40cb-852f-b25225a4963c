@@ -5,7 +5,6 @@ import ReactLenis from "lenis/react";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import TextAbout from '@/components/sections/about/TextAbout';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
-import { Target, Leaf } from 'lucide-react';
 
 export default function AboutPage() {
   return (
