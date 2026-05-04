@@ -91,8 +91,8 @@ export default function LandingPage() {
         { id: "p2", name: "Java Brain", price: "", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869055586-ikhqg5on.png" },
         { id: "p3", name: "ZenCortex", price: "", variant: "New Product", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869239141-ymqry49a.png" },
         { id: "p4", name: "Mind Armor", price: " ", variant: " ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777207953113-bixsk843.png" },
-        { id: "p5", name: "The Brain Song", price: "", variant: "Selling Fast ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777208017725-fyrtckxc.png" },
-        { id: "p6", name: "Daily Calm Routine", price: "$59.99", variant: "3-Piece Set", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/wellness-product-peaceful-aura-elegant-c-1777201386356-7e54b894.png" },
+        { id: "p5", name: "The Brain Song", price: "", variant: "Selling Fast ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869548835-bral0v26.png" },
+        { id: "p6", name: "Daily Calm Routine", price: "", variant: "3-Piece Set", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/wellness-product-peaceful-aura-elegant-c-1777201386356-7e54b894.png" },
       ]}
       title="Natural Clarity Solutions"
       description="Our curated selection of products to support cognitive health and mindfulness."
