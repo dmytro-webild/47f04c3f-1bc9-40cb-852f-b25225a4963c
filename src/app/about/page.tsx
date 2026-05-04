@@ -3,8 +3,9 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
+import TextAbout from '@/components/sections/about/TextAbout';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
+import { Target, Leaf } from 'lucide-react';
 
 export default function AboutPage() {
   return (
@@ -34,13 +35,8 @@ export default function AboutPage() {
         </div>
 
         <div id="about" data-section="about">
-          <MetricSplitMediaAbout
+          <TextAbout
             title="Our Mission for Mindfulness"
-            description="We are dedicated to helping people reclaim their focus and clarity in a fast-paced world through science-backed nutrition and intentional living."
-            metrics={[
-              { value: "10+ years", title: "Research Experience", icon: Target },
-              { value: "100% Organic", title: "Pure Sourcing", icon: Leaf },
-            ]}
             useInvertedBackground={false}
           />
         </div>
