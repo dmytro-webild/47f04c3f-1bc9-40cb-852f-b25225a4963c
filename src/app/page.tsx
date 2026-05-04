@@ -6,7 +6,8 @@ import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroBillboardTestimonial from '@/components/sections/hero/HeroBillboardTestimonial';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
-import TextAbout from '@/components/sections/about/TextAbout';
+import SplitAbout from '@/components/sections/about/SplitAbout';
+import { Target } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -54,11 +55,20 @@ export default function LandingPage() {
   </div>
 
   <div id="about" data-section="about">
-      <TextAbout
-      useInvertedBackground={false}
-      title="Our Commitment to Mental Wellness"
-      buttons={[{ text: "Learn More", href: "#features" }]}
-    />
+      <SplitAbout
+        title="Our Mission for Mindfulness"
+        description="We are dedicated to providing evidence-based tools and supplements to help you achieve clarity in a fast-paced world."
+        tag="Mindfulness"
+        tagIcon={Target}
+        imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/a-serene-high-quality-image-of-a-person--1777201297462-30664a9c.png"
+        buttons={[{ text: "Contact Us", href: "/contact" }]}
+        bulletPoints={[
+          { title: "Natural Ingredients", description: "High-quality, evidence-backed supplements for cognitive wellness." },
+          { title: "Mindful Practice", description: "Tools to help you stay grounded and focused throughout your day." }
+        ]}
+        textboxLayout="split"
+        useInvertedBackground={false}
+      />
   </div>
 
   <div id="products" data-section="products">
@@ -74,6 +84,7 @@ export default function LandingPage() {
       ]}
       title="Natural Clarity Solutions"
       description="Our curated selection of products to support cognitive health and mindfulness."
+      buttons={[{ text: "Shop All", href: "/supplements" }]}
     />
   </div>
 
