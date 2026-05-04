@@ -44,7 +44,7 @@ export default function BlogPage() {
             textboxLayout="default"
             useInvertedBackground={false}
             blogs={[
-              { id: "b1", category: "Wellness", title: "The Science of Clarity", excerpt: "How deep focus transforms your daily productivity.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/a-serene-high-quality-image-of-a-person--1777201297462-30664a9c.png", authorName: "Dr. Aris", authorAvatar: "", date: "May 20, 2024" }
+              { id: "b1", category: "Wellness", title: "The Science of Clarity", excerpt: "How deep focus transforms your daily productivity.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/tmp/a-group-of-people-doing-meditation-1777870513384-a63a5410.png", authorName: "Dr. Aris", authorAvatar: "", date: "May 20, 2024" }
             ]}
           />
           <div className="container mx-auto p-8 max-w-2xl">
