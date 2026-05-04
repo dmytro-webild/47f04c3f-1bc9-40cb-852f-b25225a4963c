@@ -60,7 +60,7 @@ export default function BlogPage() {
             columns={[
               { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Blog", href: "/blog" }] },
               { title: "Products", items: [{ label: "Supplements", href: "/products" }, { label: "Resources", href: "#" }] },
-              { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Use", href: "#" }] },
+              { title: "Legal", items: [{ label: "Privacy Policy", href: "/privacy" }, { label: "Terms of Use", href: "#" }] },
             ]}
           />
         </div>
