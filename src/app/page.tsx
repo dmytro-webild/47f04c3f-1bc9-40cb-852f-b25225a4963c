@@ -27,7 +27,7 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         { name: "About", id: "/about" },
-        { name: "Products", id: "/products" },
+        { name: "Supplements", id: "/supplements" },
         { name: "Blog", id: "/blog" },
         { name: "Contact", id: "/contact" },
       ]}
@@ -68,9 +68,9 @@ export default function LandingPage() {
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={true}
       products={[
-        { id: "p1", name: "Memory Fuel", price: "", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777868743731-y4wa2vn3.png" },
-        { id: "p2", name: "Java Brain", price: "", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869055586-ikhqg5on.png" },
-        { id: "p3", name: "ZenCortex", price: "", variant: "New Product", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869239141-ymqry49a.png" },
+        { id: "p1", name: "Memory Fuel", price: "", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777876141937-p5z8u7iu.png" },
+        { id: "p2", name: "Mind Armor", price: "", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777876213411-e3c9sv8d.png" },
+        { id: "p3", name: "ZenCortex", price: "", variant: "New Product", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777877690031-k15aww2x.png" },
       ]}
       title="Natural Clarity Solutions"
       description="Our curated selection of products to support cognitive health and mindfulness."
@@ -82,7 +82,7 @@ export default function LandingPage() {
       logoText="Mind Haven Nutrition"
       columns={[
         { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Blog", href: "/blog" }] },
-        { title: "Products", items: [{ label: "Supplements", href: "/products" }, { label: "Resources", href: "#" }] },
+        { title: "Products", items: [{ label: "Supplements", href: "/supplements" }, { label: "Resources", href: "#" }] },
         { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Use", href: "#" }] },
       ]}
     />
