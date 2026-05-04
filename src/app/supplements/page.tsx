@@ -43,7 +43,7 @@ export default function SupplementsPage() {
             useInvertedBackground={false}
             products={[
               { id: "s1", name: "Memory Fuel", price: "$29", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777868743731-y4wa2vn3.png?_wi=1" },
-              { id: "s2", name: "Daily Focus", price: "$35", variant: "Tablets", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869055586-ikhqg5on.png?_wi=1" },
+              { id: "s2", name: "Mind Armor", price: "$35", variant: "Tablets", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869055586-ikhqg5on.png?_wi=1" },
               { id: "s3", name: "Zen Formula", price: "$42", variant: "Powder", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869239141-ymqry49a.png?_wi=1" },
               { id: "s4", name: "Omega Mind", price: "$25", variant: "Softgels", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777868743731-y4wa2vn3.png?_wi=2" },
               { id: "s5", name: "Magnesium Pure", price: "$19", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869055586-ikhqg5on.png?_wi=2" },
