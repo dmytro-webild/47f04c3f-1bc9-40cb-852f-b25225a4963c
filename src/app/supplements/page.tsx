@@ -42,16 +42,16 @@ export default function SupplementsPage() {
             animationType="slide-up"
             useInvertedBackground={false}
             products={[
-              { id: "s1", name: "Cognitive Boost", price: "$29", variant: "Capsules", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777868743731-y4wa2vn3.png" },
-              { id: "s2", name: "Daily Focus", price: "$35", variant: "Tablets", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869055586-ikhqg5on.png" },
-              { id: "s3", name: "Zen Formula", price: "$42", variant: "Powder", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869239141-ymqry49a.png" },
-              { id: "s4", name: "Omega Mind", price: "$25", variant: "Softgels", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777868743731-y4wa2vn3.png" },
-              { id: "s5", name: "Magnesium Pure", price: "$19", variant: "Capsules", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869055586-ikhqg5on.png" },
-              { id: "s6", name: "Vitamin D+K", price: "$15", variant: "Tablets", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869239141-ymqry49a.png" },
-              { id: "s7", name: "Ashwagandha Max", price: "$30", variant: "Capsules", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777868743731-y4wa2vn3.png" },
-              { id: "s8", name: "Turmeric Curcumin", price: "$28", variant: "Capsules", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869055586-ikhqg5on.png" },
-              { id: "s9", name: "Probiotic Gold", price: "$38", variant: "Capsules", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869239141-ymqry49a.png" },
-              { id: "s10", name: "B-Complex Boost", price: "$22", variant: "Tablets", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777868743731-y4wa2vn3.png" },
+              { id: "s1", name: "Cognitive Boost", price: "$29", variant: "Capsules", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777868743731-y4wa2vn3.png?_wi=1" },
+              { id: "s2", name: "Daily Focus", price: "$35", variant: "Tablets", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869055586-ikhqg5on.png?_wi=1" },
+              { id: "s3", name: "Zen Formula", price: "$42", variant: "Powder", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869239141-ymqry49a.png?_wi=1" },
+              { id: "s4", name: "Omega Mind", price: "$25", variant: "Softgels", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777868743731-y4wa2vn3.png?_wi=2" },
+              { id: "s5", name: "Magnesium Pure", price: "$19", variant: "Capsules", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869055586-ikhqg5on.png?_wi=2" },
+              { id: "s6", name: "Vitamin D+K", price: "$15", variant: "Tablets", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869239141-ymqry49a.png?_wi=2" },
+              { id: "s7", name: "Ashwagandha Max", price: "$30", variant: "Capsules", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777868743731-y4wa2vn3.png?_wi=3" },
+              { id: "s8", name: "Turmeric Curcumin", price: "$28", variant: "Capsules", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869055586-ikhqg5on.png?_wi=3" },
+              { id: "s9", name: "Probiotic Gold", price: "$38", variant: "Capsules", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869239141-ymqry49a.png?_wi=3" },
+              { id: "s10", name: "B-Complex Boost", price: "$22", variant: "Tablets", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777868743731-y4wa2vn3.png?_wi=4" },
             ]}
           />
         </div>
