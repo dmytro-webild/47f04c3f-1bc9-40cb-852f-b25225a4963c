@@ -39,16 +39,13 @@ export default function PrivacyPolicyPage() {
             title="Privacy Policy"
             sections={[
               {
-                heading: "Introduction",                
-                content: { type: "paragraph", text: "At Mind Haven Nutrition, we value your privacy and are committed to protecting your personal data. This policy explains how we collect, use, and safeguard your information." }
+                heading: "Introduction",                content: { type: "paragraph", text: "At Mind Haven Nutrition, we value your privacy and are committed to protecting your personal data. This policy explains how we collect, use, and safeguard your information." }
               },
               {
-                heading: "Data Collection",                
-                content: { type: "list", items: ["Information you provide directly to us", "Usage data collected automatically", "Cookies and tracking technologies"] }
+                heading: "Data Collection",                content: { type: "list", items: ["Information you provide directly to us", "Usage data collected automatically", "Cookies and tracking technologies"] }
               },
               {
-                heading: "How We Use Your Data",                
-                content: { type: "numbered-list", items: ["To provide and maintain our services", "To notify you about changes to our service", "To provide customer support"] }
+                heading: "How We Use Your Data",                content: { type: "numbered-list", items: ["To provide and maintain our services", "To notify you about changes to our service", "To provide customer support"] }
               }
             ]}
           />
