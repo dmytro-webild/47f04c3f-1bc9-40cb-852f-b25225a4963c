@@ -58,13 +58,17 @@ export default function BlogPage() {
           />
           <div className="container mx-auto p-8 max-w-2xl">
             <h3 className="text-2xl font-bold mb-4">Leave a comment</h3>
-            <Input value={comment} onChange={setComment} placeholder="Share your thoughts..." />
-            <button 
-                className="mt-4 px-6 py-2 bg-primary text-white rounded"
-                onClick={handleAddComment}
-            >
-                Post Review
-            </button>
+            <div className="flex gap-2">
+              <div className="flex-1">
+                <Input value={comment} onChange={setComment} placeholder="Share your thoughts..." />
+              </div>
+              <button 
+                  className="px-6 py-2 bg-primary text-white rounded whitespace-nowrap"
+                  onClick={handleAddComment}
+              >
+                  Post
+              </button>
+            </div>
 
             <div className="mt-8">
                 <h4 className="text-xl font-semibold mb-4">Comments</h4>
