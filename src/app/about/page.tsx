@@ -3,8 +3,9 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import TextAbout from '@/components/sections/about/TextAbout';
+import SplitAbout from '@/components/sections/about/SplitAbout';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
+import { Target } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -34,8 +35,18 @@ export default function AboutPage() {
         </div>
 
         <div id="about" data-section="about">
-          <TextAbout
+          <SplitAbout
             title="Our Mission for Mindfulness"
+            description="We are dedicated to providing evidence-based tools and supplements to help you achieve clarity in a fast-paced world."
+            tag="Mindfulness"
+            tagIcon={Target}
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/a-serene-high-quality-image-of-a-person--1777201297462-30664a9c.png"
+            buttons={[{ text: "Contact Us", href: "/contact" }]}
+            bulletPoints={[
+              { title: "Natural Ingredients", description: "High-quality, evidence-backed supplements for cognitive wellness." },
+              { title: "Mindful Practice", description: "Tools to help you stay grounded and focused throughout your day." }
+            ]}
+            textboxLayout="split"
             useInvertedBackground={false}
           />
         </div>
