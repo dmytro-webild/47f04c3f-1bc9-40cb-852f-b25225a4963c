@@ -63,10 +63,9 @@ export default function BlogPage() {
               <div className="flex-1">
                 <Input value={comment} onChange={setComment} placeholder="Share your thoughts..." />
               </div>
-              <ButtonHoverMagnetic 
-                  text="Post"
-                  onClick={handleAddComment}
-              />
+              <a href="#" className="text-sm font-semibold text-primary underline underline-offset-4 hover:opacity-80 transition-opacity">
+                Login to Comment
+              </a>
             </div>
 
             <div className="mt-8">
