@@ -40,7 +40,7 @@ export default function AboutPage() {
             description="We are dedicated to providing evidence-based tools and supplements to help you achieve clarity in a fast-paced world."
             tag="Mindfulness"
             tagIcon={Target}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/a-serene-high-quality-image-of-a-person--1777201297462-30664a9c.png"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/a-serene-high-quality-image-of-a-person--1777201297462-30664a9c.png?_wi=1"
             buttons={[{ text: "Contact Us", href: "/contact" }]}
             bulletPoints={[
               { title: "Natural Ingredients", description: "High-quality, evidence-backed supplements for cognitive wellness." },
