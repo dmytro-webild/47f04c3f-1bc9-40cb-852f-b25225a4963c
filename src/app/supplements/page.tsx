@@ -8,7 +8,7 @@ import ProductCardFour from '@/components/sections/product/ProductCardFour';
 
 export default function SupplementsPage() {
   const supplements = [
-    { id: "s1", name: "Memory Fuel", price: "", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777868743731-y4wa2vn3.png?_wi=1", onProductClick: () => window.open('https://www.lifecoredynamics.com/mindarmor?&shield=84a7bhfn-82f2y41pn5g6wdw8s', '_blank') },
+    { id: "s1", name: "Memory Fuel", price: "", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777868743731-y4wa2vn3.png?_wi=1", onProductClick: () => window.open('https://ab371lcl7z184n6ci71c-72dw5.hop.clickbank.net', '_blank') },
     { id: "s2", name: "Mind Armor", price: "", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869055586-ikhqg5on.png?_wi=1", onProductClick: () => window.open('https://www.lifecoredynamics.com/mindarmor?&shield=84a7bhfn-82f2y41pn5g6wdw8s', '_blank') },
     { id: "s3", name: "ZenCortex", price: "", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777869239141-ymqry49a.png?_wi=1", onProductClick: () => window.open('https://fea986bo9d-43o8ti7r8ueooez.hop.clickbank.net', '_blank') },
     { id: "s4", name: "Java Brain", price: "", variant: "New Product", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777876557877-sxo8ck2a.png", onProductClick: () => window.open('https://bc846kpc7cw44ne5djn0sxjf40.hop.clickbank.net', '_blank') },
