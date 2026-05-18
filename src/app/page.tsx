@@ -78,7 +78,7 @@ export default function LandingPage() {
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={true}
       products={[
-        { id: "p1", name: "Memory Fuel", price: "", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777876141937-p5z8u7iu.png", onProductClick: () => window.open('https://9eaff7gi9-wcdl8rikh31jez2o.hop.clickbank.net', '_blank') },
+        { id: "p1", name: "Memory Fuel", price: "", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777876141937-p5z8u7iu.png", onProductClick: () => window.open('https://www.lifecoredynamics.com/mindarmor?&shield=84a7bhfn-82f2y41pn5g6wdw8s', '_blank') },
         { id: "p2", name: "Mind Armor", price: "", variant: "Top Seller", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777876213411-e3c9sv8d.png", onProductClick: () => window.open('https://www.lifecoredynamics.com/mindarmor?&shield=84a7bhfn-82f2y41pn5g6wdw8s', '_blank') },
         { id: "p3", name: "ZenCortex", price: "", variant: "New Product", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CtJvMn9momZmpQncydBEDXlj8M/uploaded-1777876736631-lwi3bg5h.png", onProductClick: () => window.open('https://fea986bo9d-43o8ti7r8ueooez.hop.clickbank.net', '_blank') },
       ]}
